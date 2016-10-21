@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-mnubo",
+  "version": "1.0.0",
+  "description": "ESLint rules used at mnubo",
+  "main": ".eslintrc.json",
+  "scripts": {
+    "test": "node node_modules/eslint/bin/eslint.js test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnubo/eslint-config-mnubo.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "mnubo",
+    "style guide"
+  ],
+  "author": "Jeremy Attali <jattali@mnubo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnubo/eslint-config-mnubo/issues"
+  },
+  "homepage": "https://github.com/mnubo/eslint-config-mnubo#readme"
+}

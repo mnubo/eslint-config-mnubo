@@ -25,5 +25,8 @@
   "homepage": "https://github.com/mnubo/eslint-config-mnubo#readme",
   "dependencies": {
     "eslint-plugin-jasmine": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1"
   }
 }

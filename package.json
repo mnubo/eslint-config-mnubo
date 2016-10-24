@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/mnubo/eslint-config-mnubo/issues"
   },
-  "homepage": "https://github.com/mnubo/eslint-config-mnubo#readme"
+  "homepage": "https://github.com/mnubo/eslint-config-mnubo#readme",
+  "dependencies": {
+    "eslint-plugin-jasmine": "^1.8.1"
+  }
 }

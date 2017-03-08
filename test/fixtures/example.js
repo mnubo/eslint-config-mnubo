@@ -3,6 +3,7 @@ import template from './example.html!text';
 export const app = angular.module('mnubo.example', [
     'mnubo.core',
 ])
+.controller('MyCtrl', MyCtrl)
 .config(config)
 .run(run);
 
@@ -47,4 +48,14 @@ function run($translate) {
 
     emptyArray.push('test');
     emptyObject.foo = 'bar';
+}
+
+class MyCtrl {
+    constructor() {
+        this.config = {};
+    }
+
+    $onInit() {
+        this.config.a = 'a';
+    }
 }

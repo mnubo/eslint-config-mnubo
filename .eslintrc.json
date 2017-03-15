@@ -135,7 +135,11 @@
         "operator-linebreak": [2, "after"],
         "object-curly-spacing": [2, "always"],
         "one-var": [2, "never"],
-        "padded-blocks": [2, "never"],
+        "padded-blocks": [2, {
+            "blocks": "never",
+            "classes": "never",
+            "switches": "never"
+        }],
         "quote-props": [2, "as-needed"],
         "quotes": [2, "single"],
         "radix": 0,
